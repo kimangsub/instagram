@@ -3,13 +3,55 @@ h2{
 }
 
 /*클래스 선택자를 쓸 때는 .클래스값으로 써야한다.*/
-.highlight{
+/*.highlight{
     border: solid;
     border-color : white;
-}
+}*/
 
 /*아이디 선택자를 쓸 때는 #아이디값으로 써야한다.*/
 #profile{
     border: solid;
     border-color: blue;
 }
+
+.thumbnail_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.thumbnail{
+    width: 100%;
+}
+
+#stat_bar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.stat{
+    text-align: center;
+}
+
+.circle_pic{
+    width: 100%;
+    height: 100%;
+    border: solid white 1px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#profile{
+    width: 50px;
+    width: 50px;
+}
+
+.highlight_pic{
+    width: 35px;
+    height: 35px;
+}
+
+
