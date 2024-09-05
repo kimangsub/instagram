@@ -67,7 +67,7 @@ h2{
 #profile_info{
     display: grid;
     grid-template-rows: 1fr 1fr;
-    height: 50px;
+    height: 15vw;
 }
 
 #id{
@@ -78,7 +78,7 @@ h2{
 button{
     height: 80%;
     width: 95%;
-    font-size: 10px;
+    font-size: 3vw;
     background-color: white;
     border: 1px solid gray;
     border-radius: 3px;
@@ -116,7 +116,7 @@ button{
     border: solid gray 1px;
     border-radius: 3px;
 
-    font-size: 10px;
+    font-size: 3vw;
     font-weight: 100;
 }
 
@@ -125,22 +125,26 @@ i{
 }
 
 #top i{
-    font-size: 14px;
+    font-size: 4vw;
 }
 
 #top div{
     text-align: center;
-    padding-top: 1px;
+    padding-top: 1vw;
 }
 
 #sub_icons{
-    font-size: 15px;
+    font-size: 5vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     text-align: center;
-    height: 30px;
+    height: 8vw;
 }
 
 .selected{
     border-bottom: solid gray;
+}
+
+body{
+    font-size: 3vw;
 }
