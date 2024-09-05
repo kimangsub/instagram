@@ -48,20 +48,20 @@ h2{
 }
 
 #profile_pic{
-    height: 50px;
-    width: 50px;
+    height: 15vw;
+    width: 15vw;
 }
 
 .highlight_pic{
-    width: 35px;
-    height: 35px;
+    width: 10vw;
+    height: 10vw;
     margin-left: auto;
     margin-right: auto;
 }
 
 #highlight_area{
     display: grid;
-    grid-template-columns: 45px 45px 1fr;
+    grid-template-columns: 12vw 12vw 1fr;
 }
 
 #profile_info{
@@ -87,9 +87,10 @@ button{
 #top{
     display: grid;
     grid-template-columns: 4fr 7fr 4fr;
-    height: 30px;
+    height: 10vw;
     border-bottom: solid gray 0.1px;
-    margin-bottom: 10px;
+    margin-bottom: 3vw;
+    min-height: 10vw;
 }
 
 #top_img{
